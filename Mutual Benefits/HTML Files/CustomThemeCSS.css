@@ -1,0 +1,67 @@
+/*-------------------------------------*/
+/*Remove Breadcrumbs                   */
+.sub_header {
+	display: none !important;
+}
+
+/*-------------------------------------*/
+/*Correct non-link Menu Colors     */
+.menu ul li a {
+	color: white !important;
+}
+
+/*-------------------------------------*/
+/*Center Footer Images                 */
+.footer_widgets img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*-------------------------------------*/
+/*Contact Us Form Defaults                 */
+#container.J_ContactUs{
+	width: 100%;
+	height: 400px;
+}
+#FirstName.J_ContactUs{
+	width: 49%;
+	margin: 2px;
+	float:left;
+}
+#LastName.J_ContactUs{
+	width: 49%;
+    margin: 2px;
+	float: left;
+}
+#Email.J_ContactUs{
+	width: 100%;
+	Margin: 2px;
+	float: left;
+}
+#Question.J_ContactUs{
+	width: 100%;
+	height: 200px;
+	Margin: 2px;
+	float: left;
+	padding-bottom: 30px;
+}
+
+#Submit{
+	height: 30px;
+	text-align:center;
+	width:100%;
+	clear: both;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+	
+input[type="text"], textarea, input {
+	width: 98%;
+	height: 100%;
+}
+input[type="submit"] {
+	color: #333;
+	width: 100px;
+	text-align: center;
+}

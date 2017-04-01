@@ -1,0 +1,70 @@
+body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: brown;
+    margin: 0px;
+}
+h1 {
+    margin: 0 5px 10px 0;
+}
+
+/*Link Styles*/
+a {color: #4d2905;}
+a:hover {color: #831511;}
+a:active {color: #43290e;}
+a:visited {color: #815324;}
+
+/*Bulk Containers*/
+
+.textContainer, .imageContainer, .formContainer {
+    display: inline-block;
+    overflow: auto;
+    margin: 0 10px 0 0;
+}
+.textContainer {
+    
+}
+
+
+/*Page Container*/
+.pageWrapper {
+    display: block;
+    width: 1000px;
+    margin: auto;
+}
+
+/*Page Content*/
+.container {
+    padding: 10px 5px;
+}
+#contentWrapper {
+    background-color: aliceblue;
+}
+
+/*Masthead/Footer Content*/
+#headerWrapper, #footerWrapper {
+    background-color: burlywood;
+}
+#logoContainer {
+    float: left;
+}
+/*Header Login*/
+#loginContainer {
+    width: 230px;
+    /*margin: 0 0 7px 475px;*/
+    margin-top: 5px;
+    float: right;
+}
+#inputLoginUser, #inputLoginPassword {
+    width: 167px;
+}
+#btnSignup, #btnLogin {
+    width: 57px;
+}
+/*Header Container*/
+#headerWrapper {
+    
+}
+/*Footer Container*/
+#footerWrapper {
+    
+}

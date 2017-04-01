@@ -1,0 +1,674 @@
+# This file is distributed under the same license as the Gravity Forms Toolbar package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2012-12-12 22:44:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Gravity Forms Toolbar\n"
+
+#: admin/tabs/settings.php:24 admin/tabs/settings.php:27
+msgid "Menu Visibility"
+msgstr ""
+
+#: admin/tabs/settings.php:30
+msgid "Show on admin side"
+msgstr ""
+
+#: admin/tabs/settings.php:34
+msgid "Show on frontend"
+msgstr ""
+
+#: gravity-forms-toolbar.php:0
+msgid "1.5.1"
+msgstr ""
+
+#: lib/gftb-plugins.php:456 lib/gftb-plugins.php:458
+msgid "YMLP Feeds"
+msgstr ""
+
+#: lib/gftb-plugins.php:468 lib/gftb-plugins.php:470
+msgid "YMLP Settings"
+msgstr ""
+
+#: lib/gftb-plugins.php:476 lib/gftb-plugins.php:478
+msgid "YMLP Add-On Settings"
+msgstr ""
+
+#: lib/gftb-plugins.php:419 lib/gftb-plugins.php:421
+msgid "Infusionsoft Feeds"
+msgstr ""
+
+#: lib/gftb-plugins.php:431 lib/gftb-plugins.php:433
+msgid "Infusionsoft Settings"
+msgstr ""
+
+#: lib/gftb-plugins.php:439 lib/gftb-plugins.php:441
+msgid "Infusionsoft Add-On Settings"
+msgstr ""
+
+#: lib/gftb-addons.php:275 lib/gftb-addons.php:277
+msgid "Picatcha Settings"
+msgstr ""
+
+#: lib/gftb-addons.php:336 lib/gftb-addons.php:338
+msgid "Pending Activations"
+msgstr ""
+
+#: lib/gftb-admin.php:128
+msgid "More about the plugin author"
+msgstr ""
+
+#: lib/gftb-admin.php:129
+msgid "Social:"
+msgstr ""
+
+#: lib/gftb-admin.php:143
+msgid "Plugin"
+msgstr ""
+
+#: lib/gftb-admin.php:146
+msgid "Code snippets for customizing &amp; branding"
+msgstr ""
+
+#: lib/gftb-admin.php:178
+msgid "Miscellaneous"
+msgstr ""
+
+#: lib/gftb-admin.php:183
+msgid "Important plugin links:"
+msgstr ""
+
+#: lib/gftb-admin.php:184
+msgid "Plugin website"
+msgstr ""
+
+#: lib/gftb-admin.php:184
+msgctxt "Translators: Plugin support links"
+msgid "Support"
+msgstr ""
+
+#: lib/gftb-admin.php:86 lib/gftb-admin.php:184
+msgid "Translations"
+msgstr ""
+
+#: lib/gftb-plugins.php:566 lib/gftb-plugins.php:568 lib/gftb-plugins.php:574
+#: lib/gftb-plugins.php:576
+msgid "Fat Zebra Add-On"
+msgstr ""
+
+#: lib/gftb-admin.php:154
+msgid "Other, recommended Gravity Forms plugins"
+msgstr ""
+
+#: lib/gftb-plugins.php:516 lib/gftb-plugins.php:518 lib/gftb-plugins.php:524
+#: lib/gftb-plugins.php:526
+msgid "Survey Funnel Add-On"
+msgstr ""
+
+#: lib/gftb-admin.php:158
+msgid "map forms that create posts to a custom post type, also map dropdown select, radio buttons list and checkboxes lists to a custom taxonomy"
+msgstr ""
+
+#: lib/gftb-admin.php:164
+msgid "easily select a CSS \"Ready Class\" for your fields within Gravity Forms"
+msgstr ""
+
+#: lib/gftb-admin.php:170
+msgid "save/view/download a PDF from the front- and back-end, and automate PDF creation on form submission"
+msgstr ""
+
+#: lib/gftb-admin.php:145
+msgid "Suggest new resource items or Add-Ons/ plugins for support"
+msgstr ""
+
+#: admin/tabs/settings.php:66
+msgid "Display notification about number of all unread entries"
+msgstr ""
+
+#: admin/tabs/settings.php:70
+msgid "Display notification in menu when plugin update is available"
+msgstr ""
+
+#: gravity-forms-toolbar.php:329
+msgid "Plugin Settings"
+msgstr ""
+
+#: gravity-forms-toolbar.php:331
+msgctxt "Translators: For the tooltip"
+msgid "Plugin Settings"
+msgstr ""
+
+#: gravity-forms-toolbar.php:335
+msgid "Toolbar Menu"
+msgstr ""
+
+#: gravity-forms-toolbar.php:337
+msgctxt "Translators: For the tooltip"
+msgid "Toolbar Menu"
+msgstr ""
+
+#: gravity-forms-toolbar.php:341 gravity-forms-toolbar.php:343
+msgid "Manage Widgets"
+msgstr ""
+
+#: gravity-forms-toolbar.php:467 gravity-forms-toolbar.php:586
+msgid "Update Is Available"
+msgstr ""
+
+#: gravity-forms-toolbar.php:467
+msgid "Check for Update"
+msgstr ""
+
+#: lib/gftb-plugins.php:130 lib/gftb-plugins.php:132
+msgid "Stripe Feeds"
+msgstr ""
+
+#: lib/gftb-plugins.php:142 lib/gftb-plugins.php:144
+msgid "Stripe Settings"
+msgstr ""
+
+#: lib/gftb-plugins.php:150 lib/gftb-plugins.php:152
+msgid "Stripe Add-On Settings"
+msgstr ""
+
+#: lib/gftb-plugins.php:271 lib/gftb-plugins.php:273
+msgid "Constant Contact Feeds"
+msgstr ""
+
+#: lib/gftb-plugins.php:283 lib/gftb-plugins.php:285
+msgid "Constant Contact Settings"
+msgstr ""
+
+#: lib/gftb-plugins.php:291 lib/gftb-plugins.php:293
+msgid "Constant Contact Add-On Settings"
+msgstr ""
+
+#: gravity-forms-toolbar.php:566
+msgctxt "Translators: Main item - for the tooltip"
+msgid "Gravity Forms"
+msgstr ""
+
+#: lib/gftb-plugins.php:493
+msgid "Gravity to Solve360"
+msgstr ""
+
+#: lib/gftb-plugins.php:499 lib/gftb-plugins.php:501
+msgid "Options"
+msgstr ""
+
+#: lib/gftb-plugins.php:541 lib/gftb-plugins.php:543 lib/gftb-plugins.php:549
+#: lib/gftb-plugins.php:551
+msgid "HubSpot Add-On"
+msgstr ""
+
+#: lib/gftb-plugins.php:591 lib/gftb-plugins.php:593 lib/gftb-plugins.php:599
+#: lib/gftb-plugins.php:601
+msgid "CapsuleCRM Add-On"
+msgstr ""
+
+#: lib/gftb-plugins.php:640 lib/gftb-plugins.php:642
+msgid "PixCaptcha Image Captcha"
+msgstr ""
+
+#: lib/gftb-plugins.php:495
+msgctxt "Translators: For the tooltip"
+msgid "Gravity to Solve360 Export"
+msgstr ""
+
+#: lib/gftb-addons.php:246
+msgid "PayPal Pro Feeds"
+msgstr ""
+
+#: lib/gftb-addons.php:258 lib/gftb-addons.php:260
+msgid "PayPal Pro Settings"
+msgstr ""
+
+#: admin/tabs/settings.php:50
+msgid "Active official Add-Ons"
+msgstr ""
+
+#: lib/gftb-admin.php:50
+msgid "Go to the settings page"
+msgstr ""
+
+#: lib/gftb-plugins.php:616 lib/gftb-plugins.php:618 lib/gftb-plugins.php:624
+#: lib/gftb-plugins.php:626
+msgid "eWAY Add-On"
+msgstr ""
+
+#: lib/gftb-plugins.php:656
+msgid "SMS Notifications (Mediaburst)"
+msgstr ""
+
+#: lib/gftb-plugins.php:658
+msgctxt "Translators: For the tooltip"
+msgid "SMS Notifications by Mediaburst"
+msgstr ""
+
+#: lib/gftb-resources.php:70
+msgid "Gravity Forms + Events Calendar Submissions"
+msgstr ""
+
+#: lib/gftb-resources.php:72
+msgctxt "Translators: For the tooltip"
+msgid "Gravity Forms + Events Calendar Submissions (creativeslice.com)"
+msgstr ""
+
+#: lib/gftb-resources.php:76
+msgid "Tutorials (Gravity Wiz)"
+msgstr ""
+
+#: lib/gftb-resources.php:78
+msgctxt "Translators: For the tooltip"
+msgid "Tutorials (Gravity Wiz)"
+msgstr ""
+
+#: lib/gftb-resources.php:82
+msgid "Snippets (Gravity Wiz)"
+msgstr ""
+
+#: lib/gftb-resources.php:84
+msgctxt "Translators: For the tooltip"
+msgid "Snippets (Gravity Wiz)"
+msgstr ""
+
+#: lib/gftb-resources.php:90
+msgctxt "Translators: For the tooltip"
+msgid "Dev Tutorials &amp; Code Snippets (wpsmith.net)"
+msgstr ""
+
+#: lib/gftb-resources.php:88
+msgid "Dev Tutorials &amp; Code Snippets"
+msgstr ""
+
+#: lib/gftb-plugins.php:27 lib/gftb-plugins.php:29 lib/gftb-plugins.php:56
+#: lib/gftb-plugins.php:58
+msgid "iDEAL Feeds"
+msgstr ""
+
+#: lib/gftb-addons.php:107 lib/gftb-addons.php:109 lib/gftb-addons.php:136
+#: lib/gftb-addons.php:138 lib/gftb-addons.php:165 lib/gftb-addons.php:167
+#: lib/gftb-addons.php:194 lib/gftb-addons.php:196 lib/gftb-addons.php:223
+#: lib/gftb-addons.php:225 lib/gftb-addons.php:252 lib/gftb-addons.php:254
+#: lib/gftb-addons.php:298 lib/gftb-addons.php:300 lib/gftb-addons.php:327
+#: lib/gftb-addons.php:329 lib/gftb-plugins.php:33 lib/gftb-plugins.php:35
+#: lib/gftb-plugins.php:62 lib/gftb-plugins.php:64 lib/gftb-plugins.php:136
+#: lib/gftb-plugins.php:138 lib/gftb-plugins.php:240 lib/gftb-plugins.php:242
+#: lib/gftb-plugins.php:277 lib/gftb-plugins.php:279 lib/gftb-plugins.php:314
+#: lib/gftb-plugins.php:316 lib/gftb-plugins.php:351 lib/gftb-plugins.php:353
+#: lib/gftb-plugins.php:388 lib/gftb-plugins.php:390 lib/gftb-plugins.php:425
+#: lib/gftb-plugins.php:427 lib/gftb-plugins.php:462 lib/gftb-plugins.php:464
+msgid "Add new Feed"
+msgstr ""
+
+#: lib/gftb-plugins.php:39 lib/gftb-plugins.php:41 lib/gftb-plugins.php:68
+#: lib/gftb-plugins.php:70
+msgid "Pronamic iDEAL Settings"
+msgstr ""
+
+#: lib/gftb-plugins.php:50 lib/gftb-plugins.php:52
+msgid "Pronamic iDEAL Payment Gateway"
+msgstr ""
+
+#: lib/gftb-plugins.php:74 lib/gftb-plugins.php:76
+msgid "Payments"
+msgstr ""
+
+#: admin/form.php:18 lib/gftb-admin.php:50 lib/gftb-plugins.php:80
+#: lib/gftb-plugins.php:82
+msgid "Settings"
+msgstr ""
+
+#: lib/gftb-plugins.php:89 lib/gftb-plugins.php:91
+msgid "Pages Generator"
+msgstr ""
+
+#: lib/gftb-plugins.php:99 lib/gftb-plugins.php:101
+msgid "Variants"
+msgstr ""
+
+#: lib/gftb-resources.php:46 lib/gftb-resources.php:48
+msgid "Documentation"
+msgstr ""
+
+#: lib/gftb-plugins.php:167 lib/gftb-plugins.php:169 lib/gftb-plugins.php:175
+#: lib/gftb-plugins.php:177
+msgid "Gravity Forms Directory & Addons"
+msgstr ""
+
+#: admin/admin.php:31 admin/admin.php:32 admin/form.php:23
+#: gravity-forms-toolbar.php:0 lib/gftb-admin.php:122 lib/gftb-admin.php:143
+msgid "Gravity Forms Toolbar"
+msgstr ""
+
+#: gravity-forms-toolbar.php:0
+msgid "http://genesisthemes.de/en/wp-plugins/gravity-forms-toolbar/"
+msgstr ""
+
+#: gravity-forms-toolbar.php:0
+msgid "This plugin adds useful admin links and resources for Gravity Forms to the WordPress Toolbar / Admin Bar."
+msgstr ""
+
+#: gravity-forms-toolbar.php:0
+msgid "http://deckerweb.de/"
+msgstr ""
+
+#: lib/gftb-admin.php:84 lib/gftb-admin.php:184 lib/gftb-resources.php:96
+#: lib/gftb-resources.php:98
+msgid "FAQ"
+msgstr ""
+
+#: lib/gftb-admin.php:85
+msgid "Support"
+msgstr ""
+
+#: lib/gftb-admin.php:87 lib/gftb-admin.php:184
+msgid "Donate"
+msgstr ""
+
+#: lib/gftb-resources.php:25 lib/gftb-resources.php:27
+msgid "Support Forums"
+msgstr ""
+
+#: lib/gftb-resources.php:31 lib/gftb-resources.php:33
+msgid "Advanced Forum Search"
+msgstr ""
+
+#: gravity-forms-toolbar.php:292 gravity-forms-toolbar.php:294
+msgid "Priority Support (Dev License Only)"
+msgstr ""
+
+#: lib/gftb-resources.php:52 lib/gftb-resources.php:54
+msgid "Visual CSS Guide"
+msgstr ""
+
+#: lib/gftb-resources.php:102 lib/gftb-resources.php:104
+msgid "Installation"
+msgstr ""
+
+#: lib/gftb-resources.php:108 lib/gftb-resources.php:110
+msgid "Using Gravity Forms"
+msgstr ""
+
+#: lib/gftb-resources.php:114 lib/gftb-resources.php:116
+msgid "Formatting &amp; Styling"
+msgstr ""
+
+#: admin/tabs/settings.php:60 admin/tabs/settings.php:63
+#: lib/gftb-resources.php:120 lib/gftb-resources.php:122
+msgid "Notifications"
+msgstr ""
+
+#: lib/gftb-resources.php:126 lib/gftb-resources.php:128
+msgid "General Questions"
+msgstr ""
+
+#: lib/gftb-resources.php:134 lib/gftb-resources.php:136
+msgid "Gravity Forms HQ"
+msgstr ""
+
+#: lib/gftb-resources.php:140 lib/gftb-resources.php:142
+msgid "Feature List & Demonstration"
+msgstr ""
+
+#: lib/gftb-resources.php:146 lib/gftb-resources.php:148
+msgid "Official Blog"
+msgstr ""
+
+#: lib/gftb-resources.php:152 lib/gftb-resources.php:154
+msgid "Official Add-Ons Info"
+msgstr ""
+
+#: lib/gftb-resources.php:158 lib/gftb-resources.php:160
+msgid "More free plugins/extensions at WP.org"
+msgstr ""
+
+#: gravity-forms-toolbar.php:303
+msgid "German language files"
+msgstr ""
+
+#: gravity-forms-toolbar.php:314 gravity-forms-toolbar.php:316
+msgid "Dutch language plugin"
+msgstr ""
+
+#: gravity-forms-toolbar.php:362 gravity-forms-toolbar.php:364
+msgid "Edit Forms"
+msgstr ""
+
+#: gravity-forms-toolbar.php:372 gravity-forms-toolbar.php:374
+#: lib/gftb-addons.php:78 lib/gftb-addons.php:80
+msgid "Add new Form"
+msgstr ""
+
+#: gravity-forms-toolbar.php:419 gravity-forms-toolbar.php:421
+msgid "View Entries"
+msgstr ""
+
+#: gravity-forms-toolbar.php:430 gravity-forms-toolbar.php:432
+msgid "Import & Export"
+msgstr ""
+
+#: gravity-forms-toolbar.php:436 gravity-forms-toolbar.php:438
+msgid "Export Entries"
+msgstr ""
+
+#: gravity-forms-toolbar.php:442 gravity-forms-toolbar.php:444
+msgid "Export Forms"
+msgstr ""
+
+#: gravity-forms-toolbar.php:448 gravity-forms-toolbar.php:450
+msgid "Import Forms"
+msgstr ""
+
+#: lib/gftb-addons.php:19 lib/gftb-addons.php:21
+msgid "Installed Add-Ons"
+msgstr ""
+
+#: lib/gftb-addons.php:101 lib/gftb-addons.php:103
+msgid "AWeber Feeds"
+msgstr ""
+
+#: lib/gftb-addons.php:113 lib/gftb-addons.php:115
+msgid "AWeber Settings"
+msgstr ""
+
+#: lib/gftb-addons.php:130 lib/gftb-addons.php:132
+msgid "Campaign Monitor Feeds"
+msgstr ""
+
+#: lib/gftb-addons.php:142 lib/gftb-addons.php:144
+msgid "Campaign Monitor Settings"
+msgstr ""
+
+#: lib/gftb-addons.php:159 lib/gftb-addons.php:161
+msgid "FreshBooks Feeds"
+msgstr ""
+
+#: lib/gftb-addons.php:171 lib/gftb-addons.php:173
+msgid "FreshBooks Settings"
+msgstr ""
+
+#: lib/gftb-addons.php:188 lib/gftb-addons.php:190
+msgid "MailChimp Feeds"
+msgstr ""
+
+#: lib/gftb-addons.php:200 lib/gftb-addons.php:202
+msgid "MailChimp Settings"
+msgstr ""
+
+#: lib/gftb-addons.php:217 lib/gftb-addons.php:219 lib/gftb-addons.php:248
+msgid "PayPal Feeds"
+msgstr ""
+
+#: lib/gftb-addons.php:229 lib/gftb-addons.php:231
+msgid "PayPal Settings"
+msgstr ""
+
+#: lib/gftb-addons.php:292 lib/gftb-addons.php:294
+msgid "Twilio Feeds"
+msgstr ""
+
+#: lib/gftb-addons.php:304 lib/gftb-addons.php:306
+msgid "Twilio Settings"
+msgstr ""
+
+#: lib/gftb-addons.php:321 lib/gftb-addons.php:323
+msgid "User Registration Feeds"
+msgstr ""
+
+#: lib/gftb-addons.php:344 lib/gftb-addons.php:346
+msgid "User Registration Settings"
+msgstr ""
+
+#: lib/gftb-plugins.php:671 lib/gftb-plugins.php:673
+msgid "Purchase more Add-Ons"
+msgstr ""
+
+#: gravity-forms-toolbar.php:482 gravity-forms-toolbar.php:484
+msgid "Help &amp; Links"
+msgstr ""
+
+#: admin/tabs/settings.php:54 gravity-forms-toolbar.php:497
+#: gravity-forms-toolbar.php:499
+msgid "Active Extensions"
+msgstr ""
+
+#: gravity-forms-toolbar.php:563
+msgid "Gravity Forms"
+msgstr ""
+
+#: lib/gftb-plugins.php:109 lib/gftb-plugins.php:111
+msgid "Pronamic iDEAL Documentation"
+msgstr ""
+
+#: lib/gftb-addons.php:55 lib/gftb-addons.php:57
+msgid "Currently none"
+msgstr ""
+
+#: lib/gftb-plugins.php:192 lib/gftb-plugins.php:194 lib/gftb-plugins.php:200
+#: lib/gftb-plugins.php:202
+msgid "Gravity Forms Salesforce Add-On"
+msgstr ""
+
+#: lib/gftb-plugins.php:217 lib/gftb-plugins.php:219
+msgid "Contact Form 7 Gravity Forms Importer"
+msgstr ""
+
+#: lib/gftb-plugins.php:234 lib/gftb-plugins.php:236
+msgid "ShootQ Feeds"
+msgstr ""
+
+#: lib/gftb-plugins.php:246 lib/gftb-plugins.php:248
+msgid "ShootQ Settings"
+msgstr ""
+
+#: lib/gftb-plugins.php:254 lib/gftb-plugins.php:256
+msgid "ShootQ Add-On Settings"
+msgstr ""
+
+#: lib/gftb-plugins.php:308 lib/gftb-plugins.php:310
+msgid "iContact Feeds"
+msgstr ""
+
+#: lib/gftb-plugins.php:320 lib/gftb-plugins.php:322
+msgid "iContact Settings"
+msgstr ""
+
+#: lib/gftb-plugins.php:328 lib/gftb-plugins.php:330
+msgid "iContact Add-On Settings"
+msgstr ""
+
+#: lib/gftb-plugins.php:345 lib/gftb-plugins.php:347
+msgid "Mad Mimi Feeds"
+msgstr ""
+
+#: lib/gftb-plugins.php:357 lib/gftb-plugins.php:359
+msgid "Mad Mimi Settings"
+msgstr ""
+
+#: lib/gftb-plugins.php:365 lib/gftb-plugins.php:367
+msgid "Mad Mimi Add-On Settings"
+msgstr ""
+
+#: lib/gftb-plugins.php:382 lib/gftb-plugins.php:384
+msgid "ExactTarget Feeds"
+msgstr ""
+
+#: lib/gftb-plugins.php:394 lib/gftb-plugins.php:396
+msgid "ExactTarget Settings"
+msgstr ""
+
+#: lib/gftb-plugins.php:402 lib/gftb-plugins.php:404
+msgid "ExactTarget Add-On Settings"
+msgstr ""
+
+#: lib/gftb-resources.php:58 lib/gftb-resources.php:60
+msgid "CSS: Targeting Specific Elements"
+msgstr ""
+
+#: lib/gftb-resources.php:64 lib/gftb-resources.php:66
+msgid "CSS Plugin: CSS Ready Class Selector"
+msgstr ""
+
+#: gravity-forms-toolbar.php:285 gravity-forms-toolbar.php:287
+msgid "Your User Profile at Gravity Help"
+msgstr ""
+
+#: gravity-forms-toolbar.php:350 gravity-forms-toolbar.php:352
+msgid "Adjust User Roles &amp; Capabilities (Plugin: Members)"
+msgstr ""
+
+#: admin/tabs/settings.php:40 admin/tabs/settings.php:43
+msgid "Menu Items Visibility"
+msgstr ""
+
+#: admin/tabs/settings.php:46
+msgid "Help, Documnetation and FAQ options"
+msgstr ""
+
+#: admin/tabs/settings.php:76 admin/tabs/settings.php:79
+msgid "Forms Details"
+msgstr ""
+
+#: admin/tabs/settings.php:82
+msgid "Include list of forms and entries counts"
+msgstr ""
+
+#: admin/tabs/settings.php:84
+msgid "Note: This will generate additional SQL queries to get forms information."
+msgstr ""
+
+#: admin/tabs/settings.php:92
+msgid "Save Changes"
+msgstr ""
+
+#: gravity-forms-toolbar.php:0
+msgid "David Decker - DECKERWEB / Milan Petrovic - Dev4Press"
+msgstr ""
+
+#: gravity-forms-toolbar.php:580
+msgid "Unread Entries"
+msgstr ""
+
+#: gravity-forms-toolbar.php:305
+msgid "German language files for Gravity Forms and Add-Ons"
+msgstr ""
+
+#: lib/gftb-admin.php:179 lib/gftb-resources.php:164
+msgid "Gravity Forms News Planet"
+msgstr ""
+
+#: lib/gftb-admin.php:179 lib/gftb-resources.php:166
+msgid "Gravity Forms News Planet (official and community news via FriendFeed service)"
+msgstr ""
+
+#: lib/gftb-addons.php:72 lib/gftb-addons.php:74
+msgid "Authorize.Net Forms"
+msgstr ""
+
+#: lib/gftb-addons.php:84 lib/gftb-addons.php:86
+msgid "Authorize.Net Settings"
+msgstr ""

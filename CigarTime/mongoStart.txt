@@ -1,0 +1,7 @@
+CD D:\!Apps\MongoDB\bin
+
+D:
+
+mongod --dbpath J:\Dropbox\Freelance\CigarTime\data
+
+

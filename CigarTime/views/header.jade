@@ -1,0 +1,13 @@
+#headerWrapper.container
+  #logoContainer.imageContainer
+    img(src="http://i.kinja-img.com/gawker-media/image/upload/jzbrgpf3dbauoeotlirc.jpg", height="50")
+  #titleContainer.textContainer
+    | Welcome to
+    h1 Cigar Time&#8482;
+  #loginContainer.formContainer
+    form#formLogin(name="userLogin", method="post", action="/login")
+    input#inputLoginUser(type="text", placeholder="Username", name="LoginUser")
+    button#btnSignup(type="submit") Signup
+    input#inputLoginPassword(type="text", placeholder="Password", name="LoginPassword")
+    button#btnLogin(type="submit") Login
+    

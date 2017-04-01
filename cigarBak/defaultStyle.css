@@ -1,0 +1,41 @@
+/*Class Designations*/
+.default {
+    text-align: left;
+    font-family: sans-serif;
+    display: block;
+}
+.image, .text {
+    display: inline-block;
+    padding: 5px;
+}
+
+/*ID Designations*/
+#page {
+    width: 1000px;
+    margin: auto;
+    margin-top: -5px;
+}
+#masthead {
+    
+}
+#body {
+    background-color: azure;
+}
+#footer {
+    
+}
+#masthead, #footer {
+    background-color: burlywood;
+    color: black;
+}
+#siteTitle > h1 {
+    
+}
+#login input {
+    
+}
+
+/*Full Body Design*/
+body {
+    background-color: brown;
+}

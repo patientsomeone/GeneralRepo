@@ -1,0 +1,9 @@
+/*--------------------------------*/
+/* Mass Update */
+#content .modStyleWgt > header {
+    background-color: black;
+}
+
+#content .modSpecialsWgt > header {
+    background-color: white;
+}

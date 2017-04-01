@@ -1,0 +1,59 @@
+Site URL: http://mutualbenefitsinc.com/
+
+Requests: 
+Add [Home] to Navigation, remove link from [About Us] in navigation (preserve dropdown)
+
+Remove linking from slideshow images
+	Insurance is Complicated slide
+
+Remove Breadcrumb links "show home>>ask an agent or home>>products and services"
+
+Build email form on Get a Quote
+	*Name
+	*Email
+	*Phone
+	*Type of Insurance
+	 Date of Birth
+	 Smoker/Non-Smoker
+
+Add email linking to Contact Us page
+
+Update links to change color and underline (there is a 1 in the color tag)
+
+Center Helpful Hint and RX Discount plan images in footer.
+
+Add red bold [GET A QUOTE] below phone number in header
+
+Frame in article linked on "Videos and Articles" page
+		Frame in code is wonkey in WordPress. May be better for links.
+
+Create form on Ask Agent page:
+	Name
+	Email
+	Question
+	
+Create FAQs under Ask Agent
+
+Create Icon sets for What We Do
+	Review Current Coverage
+	Comparison of Coverage
+	Application Processing
+	Customer Service
+	Periodic Reviews
+		Dry Icons licensing, we would need to add "Icons by dryicons" to pages, I would suggest under current copyright info
+admin//maryhall
+
+---------------------
+Link the bottom quick links (Should 
+
+Remove user and timestamp on homepage
+
+Still links on the slideshow images
+
+Add confirmation page to Ask an Agent
+
+not resolving domain with WWW on front
+
+Facebook and Yelp Reviews to side widgets
+
+Add quicklinks to footer Mutual Benefits and Address w/ phone number

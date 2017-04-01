@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #00163f;
+}
+.contentWrapper {
+	display: block;
+	text-align: center;
+	width: 80%;
+	height: 500px;
+	margin: auto;
+	background-color: #f9fdfa;
+	border-radius: 5px;
+}
+.mainContent {
+	display: block;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top:	2%;
+	vertical-align: middle;
+}
+.columnLeft {
+	display: block;
+	float:left;
+	width: 39%;
+	text-align: center;	
+}
+.columnLeft img {
+	max-width: 90%;	
+}
+.columnCenter {
+	display: block;
+	float:left;
+	width: 39%;
+	height: 100%;
+}
+.columnCenter>h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	color: #00163f;
+}
+.columnCenter a:link {
+	color: #1dd83c;
+}
+.columnCenter a:hover {
+	color: #2f4f2e;
+}
+.columnRight {
+	display: block;
+	float:left;
+	width: 19%;
+	text-align: center;
+}

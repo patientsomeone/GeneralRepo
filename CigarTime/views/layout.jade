@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    #pageWrapper.pageWrapper
+      include header.jade
+      #contentWrapper.container
+        block content
+      include footer.jade

@@ -1,0 +1,22 @@
+extends layout
+
+block content
+    h1
+        title
+    ul
+        each cigar, i in humidor
+            li
+                | Cigar: 
+                = cigar.cigarName
+            ul 
+                li
+                    |  Date Purchased: 
+                    = cigar.datePurchased
+                li
+                    |  Amount Paid: 
+                    = cigar.amountPaid
+                li
+                    |  Each Cost: 
+                    = cigar.eachCost
+                
+    a(href="addcigar") Add a Cigar

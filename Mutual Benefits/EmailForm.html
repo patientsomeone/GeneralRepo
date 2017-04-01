@@ -1,0 +1,32 @@
+<?php
+if (isset($_REQUEST['email']))
+//if "email" is filled out, send email
+  {
+  //send email
+  $Name = $_REQUEST['firstname lastname'] ;
+  $Email Address = $_REQUEST['email'] ;
+  $Question = $_REQUEST['question'] ;
+  mail("grizzgrizz87@gmail.com", $subject,
+  $message, "From:" . $email);
+  echo "Thank you for using our mail form";
+  }
+else
+//if "email" is not filled out, display the form
+  {
+  echo "
+  	<form method='post' action='mailform.php'>
+		<div class="J_ContactUs" id="FirstName">
+    		First name: <input type="text" name="firstname"></div>
+		<div class="J_ContactUs" id="LastName">
+    		Last name: <input type="text" name="lastname"><br></div>
+		<div class="J_ContactUs" id="Email">
+    		Email: <input type="text" name="email"><br></div>
+		<div class="J_ContactUs" id="Question">
+    		Question:<br>
+			<input type="text" name="question"></div>
+		<div class="J_ContactUs" id="Submit">            
+			<input type="submit" value="Submit">    </div>        
+	</form>
+  "
+  }
+ ?>

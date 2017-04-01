@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  form#formAddCigar(name="addcigar", method="post", action="/addcigar")
+    input#inputCigarName(type="text", placeholder="Cigar Name", name="cigarName")
+    input#inputDatePurchased(type="date", placeholder="Date Purchased", name="datePurchased")
+    input#inputAmountPaid(type="number", placeholder="20.00", name="amountPaid")
+    input#inputQuantity(type="number", placeholder="1", name="quantity")
+    button#btnSubmit(type="submit") submit

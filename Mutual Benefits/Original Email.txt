@@ -1,0 +1,50 @@
+http://mutualbenefitsinc.com/
+
+From: Sarah Freeman 
+[mailto:sarah@mutualbenefitsinc.com] 
+Sent: Wednesday, February 06, 2013 11:36 AM
+To: Thomas, Faneka (DS)
+Subject: FW: Need website help asap!
+ 
+ 
+ 
+1)      Add “Home” button to navigation bar. 
+
+2)      Make sliding images so that nothing happens if you click on them.  Currently it takes you to some weirdly formatted page.
+
+3)      Make “About Us” bottom not go anywhere.  I really just want drop down menu under it.
+
+4)      Remove subtitles from each page.  For example  pages show home>>ask an agent or home>>products and services
+
+5)      Add contact form to “get a quote.”  Contact form should include name, email, phone, type of insurance, (optional: date of birth, smoker/non-smoker)
+
+6)      Hyperlinks aren’t underlined or colored.  For example under meet our team- there are email addresses and in articles and videos there is a link under the video
+
+7)      Center the picture under helpful hint and rx discount plan.  Also make website link work under rx discount plan.
+
+8)      Call to Action Button: “Get A Quote” in red or bold color under phone number. Should take you to “get a quote” (see #5) contact form
+
+9)      Can we embed articles?  Under articles and videos, I added link to article but wondering how to make it look better
+
+10)   Create a form for “ask agent” page.  Just has their name email and question.  Also would like to be able to posts questions and answers under contact box.
+
+11)   Under contact us page – need to turn email addresses into hyperlinks. 
+
+12)   Under “what we do” I need little icons to go next to each step.  I really like http://dryicons.com/free-icons/preview/minimalistica-red-icons/#icons but need relevant ones.
+
+13)   Need pages created for each Teaser Box (life, disability, long term care, etc).  Each page needs to have a “get a quote button” at the bottom (I’ll insert content)
+
+14)   Change sliding picture so head of people aren’t cut off as much.
+
+15)   Add yelp and facebook widgets,
+
+16)   Every page has sidebars.  I need to put something in those.  Maybe the Yelp/Facebook widgets or maybe Get a Quote Buttons.
+
+ 
+
+Also, I think I need to change font and size of wording on certain pages.  Is this something you can help me with?  This is not really that important.
+ 
+Currently using a temporary URL mutualbenefitsinc.com/wp-admin
+The wordpress user name is admin and the password is tmarie330
+ 
+I’d like to get this done as soon as possible, please call me at 206-271-4000.  I also may have other things I need done but this is just a start.
