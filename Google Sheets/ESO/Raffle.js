@@ -1,11 +1,11 @@
-/*global SpreadsheetApp, ui, Logger */
-/*jshint strict: false*/
+/*global SpreadsheetApp, Logger */
+/*eslint strict: 0*/
 var curSheet = function () {return SpreadsheetApp.getActive(); },
     rawInput = function () {return curSheet().getSheetByName("rawInput"); },
     rawHistory = function () {return curSheet().getSheetByName("rawHistory"); },
     tickList = function () {return curSheet().getSheetByName("Current Tickets"); },
     lastProc = function () {return rawHistory().getRange("B2").getValue(); };
-    
+
 
 
 
@@ -27,7 +27,7 @@ function procHist(updateInput) {
 //    Logger.log("Oldest In Date2: " + curIn[(curIn.length - 1)][1]);
 //    Logger.log("inDate: " + inDate);
 //    Logger.log("hisDate: " + hisDate);
-    
+
     function sortDates(a, b) {
         var aD = new Date(a[1].replace(/-/g, "/").replace(/[TZ]/g, " ")),
             bD = new Date(b[1].replace(/-/g, "/").replace(/[TZ]/g, " "));
@@ -35,7 +35,7 @@ function procHist(updateInput) {
 //        Logger.log(aD - bD);
         return aD - bD;
     }
-    
+
     if (updateInput) {
         for (i = (curIn.length - 1); i > 0; i -= 1) {
 //            Logger.log((parseDate(curIn[i][1]) > hisDate ? "newer" : "older"));
@@ -60,7 +60,7 @@ function procHist(updateInput) {
 //        Logger.log("Input Length: " + curIn.length + " | " + curLength);
 //        Logger.log("history Length: " + curHist.length);
         newHist = newHist.concat(curHist.splice(1, curHist.length));
-        
+
         if (newIn.length === 0) {
             newIn = curIn;
             Logger.log("Proccessed new input");
@@ -69,7 +69,7 @@ function procHist(updateInput) {
         for (i = (newIn.length - 1); i > 0; i -= 1) {
             newHist.unshift(newIn[i]);
         }
-        
+
         ri.deleteRows(2, curLength);
 //        ri.getRange("A2").offset(0, 0, curLength, curCol).clearContent();
 
@@ -89,7 +89,7 @@ function shuffleTicks(reset, select) {
         tickRange = tl.getRange("A2:B" + lastTickR).getValues(),
         shuffRange = tl.getRange("D2:D" + lastTickR).getValues(),
         curWinners;
-    
+
     function shuffle(array) {
         var currentIndex = array.length, temporaryValue, randomIndex;
 
@@ -108,7 +108,7 @@ function shuffleTicks(reset, select) {
 
         return array;
     }
-    
+
 //    Logger.log(tickRange);
     if (reset) {
         for (i = 0; i < shuffRange.length; i += 1) {
@@ -145,7 +145,7 @@ function shuffleTicks(reset, select) {
 //        Logger.log(multiplied);
 //        Logger.log(shuffled);
     }
-    
+
 }
 
 function procTicks(callback) {
@@ -176,7 +176,7 @@ function procTicks(callback) {
         totalTicks,
         unMap = {},
         addedRow = 2;
-    
+
     if (typeof callback === "boolean" && callback) {
         tl.getRange("A2").offset(0, 0, curTickLR, 4).clearContent();
         potCell.setValue(0);
@@ -185,7 +185,7 @@ function procTicks(callback) {
         procHist(true);
         Logger.log("Processed History");
         data = ri.getDataRange().getValues();
-    
+
         for (i = 1; i < data.length; i += 1) {
             un = data[i][3];
             gold = data[i][4];
@@ -279,7 +279,7 @@ function resetAll() {
 function selectWinner() {
     shuffleTicks(false, true);
 }
-    
+
 function onOpen() {
     SpreadsheetApp.getUi().createMenu("Execute").addItem("Process Tickets", "procTicks").addItem("Shuffle", "shuffleTicks").addItem("Winner", "selectWinner").addItem("Reset All", "resetAll").addItem("Reset Tickets", "resetTicks").addItem("Reset Shuffle", "resetShuffle").addToUi();
 }
