@@ -5,6 +5,7 @@
     "extends": "eslint:recommended",
     "rules": {
         "strict": "error",
+        "space-before-function-paren": "error",
         "no-console": 0,
         "one-var": "warn",
         "indent": ["warn", 4],

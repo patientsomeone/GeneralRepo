@@ -3,8 +3,8 @@
 var curSheet = function () {return SpreadsheetApp.getActive(); },
     rawInput = function () {return curSheet().getSheetByName("rawInput"); },
     rawHistory = function () {return curSheet().getSheetByName("rawHistory"); },
-    tickList = function () {return curSheet().getSheetByName("Current Tickets"); },
-    lastProc = function () {return rawHistory().getRange("B2").getValue(); };
+    tickList = function () {return curSheet().getSheetByName("Current Tickets"); };/*,
+    lastProc = function () {return rawHistory().getRange("B2").getValue(); };*/
 
 
 
@@ -14,14 +14,14 @@ function procHist(updateInput) {
         ri = rawInput(),
         rh = rawHistory(),
         curLength = ri.getLastRow(),
-        curCol = ri.getLastColumn(),
+        /*curCol = ri.getLastColumn(),*/
         curHist = rh.getDataRange().getValues(),
         inSort,
         newIn = [],
         newHist = [],
         curIn = ri.getDataRange().getValues(),
         parseDate = function (date) {return new Date(date.replace(/-/g, "/").replace(/[TZ]/g, " ")); },
-        inDate = parseDate(curIn[(curIn.length - 1)][1]),
+        /*inDate = parseDate(curIn[(curIn.length - 1)][1]),*/
         hisDate = (curHist.length > 1 ? parseDate(curHist[1][1]) : "");
 //    Logger.log("Newest History Date2: " + curHist[1][1]);
 //    Logger.log("Oldest In Date2: " + curIn[(curIn.length - 1)][1]);
@@ -87,8 +87,8 @@ function shuffleTicks(reset, select) {
         shuffled,
         lastTickR = tl.getLastRow(),
         tickRange = tl.getRange("A2:B" + lastTickR).getValues(),
-        shuffRange = tl.getRange("D2:D" + lastTickR).getValues(),
-        curWinners;
+        shuffRange = tl.getRange("D2:D" + lastTickR).getValues();/*,
+        curWinners;*/
 
     function shuffle(array) {
         var currentIndex = array.length, temporaryValue, randomIndex;
@@ -156,16 +156,16 @@ function procTicks(callback) {
         un,
         trans,
         gold,
-        item,
-        itemCount,
-        value,
+        /*item,*/
+        /*itemCount,*/
+        /*value,*/
         addTicks,
         curCount,
         ri = rawInput(),
-        lastInR = ri.getLastRow(),
-        lastInC = ri.getLastColumn(),
+        /*lastInR = ri.getLastRow(),*/
+        /*lastInC = ri.getLastColumn(),*/
         data = ri.getDataRange().getValues(),
-        curIn = ri.getRange("B2:I" + lastInR),
+        /*curIn = ri.getRange("B2:I" + lastInR),*/
         tl = tickList(),
         tickRange = function (range) { return tl.getRange(range); },
         curTickLC = tl.getLastColumn(),
@@ -183,44 +183,45 @@ function procTicks(callback) {
         totCell.setValue(0);
     } else {
         procHist(true);
-        Logger.log("Processed History");
+        // Logger.log("Processed History");
         data = ri.getDataRange().getValues();
 
         for (i = 1; i < data.length; i += 1) {
             un = data[i][3];
             gold = data[i][4];
             trans = data[i][2];
-            itemCount = data[i][5];
-            item = data[i][6];
-            value = (data[i][8] * itemCount);
+            /*itemCount = data[i][5];*/
+            /*item = data[i][6];*/
+            /*value = (data[i][8] * itemCount);*/
 
-            Logger.log(data[i]);
-            Logger.log(gold);
-            Logger.log(trans.slice(0, 3));
-            Logger.log(restricts.indexOf(un.toLowerCase()));
-            Logger.log(gold > tickCost);
+            // Logger.log(data[i]);
+            // Logger.log(gold);
+            // Logger.log(trans.slice(0, 3));
+            // Logger.log(restricts.indexOf(un.toLowerCase()));
+            // Logger.log(gold > tickCost);
             if (trans.slice(0, 3) === "dep" && restricts.indexOf(un.toLowerCase()) < 0 && gold >= tickCost) {
-                Logger.log(totalTicks);
-//                totalTicks = (parseInt(totCell.getValues(), 10) + ((Math.floor(gold / tickCost) * tickCost)));
-//                Logger.log("Total cell: " + (parseInt(totCell.getValues(), 10)));
-//                Logger.log("Total Tickets: " + parseInt((totalTicks / pool), 10));
-//                Logger.log("Total Ticks: (" + gold + " / " + tickCost + " = " + (Math.floor(gold / tickCost)) + ") * " + tickCost + " * " + pool + " = " + totalTicks);
+                // Logger.log(totalTicks);
+            //    totalTicks = (parseInt(totCell.getValues(), 10) + ((Math.floor(gold / tickCost) * tickCost)));
+            //    Logger.log("Total cell: " + (parseInt(totCell.getValues(), 10)));
+            //    Logger.log("Total Tickets: " + parseInt((totalTicks / pool), 10));
+            //    Logger.log("Total Ticks: (" + gold + " / " + tickCost + " = " + (Math.floor(gold / tickCost)) + ") * " + tickCost + " * " + pool + " = " + totalTicks);
                 addTicks = Math.floor(Math.min(gold, 20000) / tickCost);
                 totalTicks = (parseInt(totCell.getValues(), 10) + (parseInt(Math.floor(gold / tickCost), 10) * parseInt(tickCost, 10)));
-                Logger.log("Values " + parseInt(totCell.getValues(), 10));
-                Logger.log("Gold " + gold + " / Ticket Cost " + tickCost);
-                Logger.log("Gold / ticketCost " + Math.floor(gold / tickCost));
-                Logger.log("Total Income " + (parseInt(totCell.getValues(), 10) + (parseInt(Math.floor(gold / tickCost), 10) * parseInt(tickCost, 10))));
+                // Logger.log("Values " + parseInt(totCell.getValues(), 10));
+                // Logger.log("Gold " + gold + " / Ticket Cost " + tickCost);
+                // Logger.log("Gold / ticketCost " + Math.floor(gold / tickCost));
+                // Logger.log("Total Income " + (parseInt(totCell.getValues(), 10) + (parseInt(Math.floor(gold / tickCost), 10) * parseInt(tickCost, 10))));
                 potCell.setValue(parseInt((totalTicks * pool), 10));
                 totCell.setValue(totalTicks);
-                Logger.log(un + " | " + gold + " | " + addTicks);
+                // Logger.log(un + " | " + gold + " | " + addTicks);
                 if (unMap.hasOwnProperty(un.toLowerCase())) {
+                    Logger.log(unMap[un.toLowerCase()]);
                     // Add one to row
 //                    Logger.log("User name MAPPED " + un.toLowerCase() + " " + unMap[un.toLowerCase()]);
                     curCount = tickRange("B" + unMap[un.toLowerCase()]).getValue();
                     if (curCount < 20) {
 //                        Logger.log("Adding: " + Math.max(curCount + addTicks, 20));
-                        tickRange("B" + unMap[un.toLowerCase()]).setValue(Math.max(curCount + addTicks, 20));
+                        tickRange("B" + unMap[un.toLowerCase()]).setValue(Math.min(curCount + addTicks, 20));
                     }
                 } else {
                     // Loop through user names
@@ -232,7 +233,9 @@ function procTicks(callback) {
 //                            Logger.log("User name match " + un.toLowerCase() + " " + curTick[j][0].toLowerCase());
                             curCount = tickRange("B" + (j + 2)).getValue();
                             if (curCount < 20) {
-                                tickRange("B" + (j + 2)).setValue(Math.min(curCount + addTicks, 20));
+                                Logger.log("Current Count: " + curCount + " + " + addTicks);
+                                Logger.log("equals: " + Math.min(parseInt(curCount + addTicks, 10), 20));
+                                tickRange("B" + (j + 2)).setValue(Math.min(parseInt(curCount + addTicks, 10), 20));
                             } else {
                                 Logger.log(un + " already has 20 tickets");
                             }
@@ -258,6 +261,7 @@ function procTicks(callback) {
     }
 }
 
+/*eslint-disable*/
 function updateInput() {
     procHist(true);
 }
@@ -283,3 +287,4 @@ function selectWinner() {
 function onOpen() {
     SpreadsheetApp.getUi().createMenu("Execute").addItem("Process Tickets", "procTicks").addItem("Shuffle", "shuffleTicks").addItem("Winner", "selectWinner").addItem("Reset All", "resetAll").addItem("Reset Tickets", "resetTicks").addItem("Reset Shuffle", "resetShuffle").addToUi();
 }
+/*eslint-disable*/
